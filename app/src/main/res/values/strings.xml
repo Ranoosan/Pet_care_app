@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">peddog</string>
+    <string name="Login">login</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="Register">Register</string>
+    <string name="Click_here_to_login">Do you have an account\nClick here\n</string>
+    <string name="Click_here_to_register">Don\'t you have an account ?\n</string>
+    <string name="Click_here_to_Login">Do you have an account ?</string>
+    <string name="Logout">Logout</string>
+    <string name="View_products">View_products</string>
+    <string name="logout">logout</string>
+    <string name="view_products">view products</string>
+    <string name="Tigo">TIGO FOODS</string>
+
+    <string-array name="quantities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="payment_methods">
+        <item>Issued by Sri Lanka</item>
+        <item>International Cards</item>
+    </string-array>
+
+
+    <string name="back">Back</string>
+    <string name="menu">Menu</string>
+    <string name="packers_movers">Packers &amp; Movers</string>
+    <string name="stress_free_relocation">Stress-free relocation journey</string>
+    <string name="let_us_take_the_hassle">Let us take the hassle out of moving for you!</string>
+    <string name="how_it_works">How it works</string>
+    <string name="enter_location_details">Enter Location Details</string>
+    <string name="moving_from">Moving From</string>
+    <string name="moving_to">Moving To</string>
+    <string name="when_are_you_planning">When are you planning to move?</string>
+    <string name="pick_date_time">THU, 12 JAN - 12:30 PM</string>
+
+
+</resources>

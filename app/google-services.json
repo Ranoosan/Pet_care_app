@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "76367994610",
+    "project_id": "login-register-3bfbe",
+    "storage_bucket": "login-register-3bfbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76367994610:android:6e833645bcf22b483f7a6b",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76367994610-o64mpuv6e133r9pb4u934kgknim5pu3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPsocf-AR_B79Gg1n0dvsnO6A5Kziquk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76367994610-o64mpuv6e133r9pb4u934kgknim5pu3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76367994610:android:55292d127d1e68143f7a6b",
+        "android_client_info": {
+          "package_name": "com.example.peddog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76367994610-o64mpuv6e133r9pb4u934kgknim5pu3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPsocf-AR_B79Gg1n0dvsnO6A5Kziquk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76367994610-o64mpuv6e133r9pb4u934kgknim5pu3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp"> <!-- Added padding to prevent content from being hidden behind the footer -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Use Wet Foods"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_wet_food_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wet foods are great for hydration and can be mixed with dry foods for variety. They should be stored properly and used within the expiration date."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Use Dry Foods"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_dry_food_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dry foods are convenient and can be left out for your dog to eat throughout the day. They are also beneficial for dental health as they help clean teeth."
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Descriptions"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/text_food_descriptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Chicken and Rice: A balanced diet with lean protein and carbohydrates.\n\n2. Beef and Sweet Potato: High in protein and fiber for energy and digestion.\n\n3. Fish and Brown Rice: Rich in omega-3 fatty acids for a healthy coat and skin."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/home"
+            android:layout_weight="1"
+            android:onClick="onHomeClick"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_info"
+            android:onClick="oninfoClick"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/baseline_account_circle_24"
+            android:layout_weight="1"
+            android:onClick="onUserProfileClick"/>
+
+    </LinearLayout>
+</RelativeLayout>
